@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.ServiceSection {
+    background-color: rgb(241, 244, 247);
+    margin-top: 20px;
+    width: 100%;
+   
+  }
+  
+  .ServiceSection h1 {
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+    font-size: 30px;
+  
+  }
+  
+  .underline {
+    background-color: orange;
+    max-width: 59px;
+    min-height: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 48%;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  
+.test{
+    display: flex;
+}
+
+  .service {
+    background-color: transparent;
+    display: flex;
+    height: 372px;
+    width: fit-content;
+    position: relative;
+    /* margin-left: 23%; */
+    padding: 20px;
+  }
+  
+  .frt-dev {
+    padding: 5px;
+    background-color: brown;
+    min-width: 356px;
+    min-height: 300px;
+    margin: 10px;
+    background-image: url("../img/frt-dev.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .frt-dev h3 {
+    margin-top: 50%;
+    margin-left: 10px;
+  }
+  
+  .bck-dev {
+    margin: 10px;
+    padding: 5px;
+    background-color: blue;
+    min-width: 356px;
+    min-height: 300px;
+    background-image: url("../img/bcd-dev.png");
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .bck-dev h3 {
+    margin-top: 50%;
+    margin-left: 10px;
+  }
+
+  .filler{
+    
+    width: 50%;
+    height: 50px;
+}
+
+@media(max-width:1194px){
+   .service{
+    display: block;
+   }
+
+   .ServiceSection{
+    /* max-width: 100%; */
+    padding-bottom: 280px;
+    height: auto;
+   }
+   
+}

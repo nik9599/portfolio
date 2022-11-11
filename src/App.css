@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+nav {
+  display: flex;
+  height: 53px;
+}
+
+.Navlogo {
+  background-color: white;
+  width: 50%;
+}
+
+.Navbutton {
+  background-color: white;
+  width: 50%;
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+  height: 25px;
+}
+
+.Navbutton button {
+  border: none;
+  /* padding: 10px; */
+  padding: 5px;
+  /* box-shadow: 4px 5px 6px rgb(216, 215, 215); */
+  display: flex;
+  margin-left: 90px;
+  background: none;
+  border-radius: 10px;
+  /* border: 1px solid black; */
+}
+
+.home:hover {
+  background-color: rgb(233, 237, 237);
+  box-shadow: 4px 5px 6px rgb(216, 215, 215);
+}
+
+.about:hover {
+  background-color: rgb(233, 237, 237);
+  box-shadow: 4px 5px 6px rgb(216, 215, 215);
+}
+
+.services:hover {
+  background-color: rgb(233, 237, 237);
+  box-shadow: 4px 5px 6px rgb(216, 215, 215);
+}
+
+
+.contact:hover {
+  background-color: rgb(233, 237, 237);
+  box-shadow: 4px 5px 6px rgb(216, 215, 215);
+}
+
+.FirstSection {
+  display: flex;
+  background-color: bisque;
+  min-height: 500px;
+}
+
+.top-left {
+  background-color: white;
+  width: 50%;
+}
+
+.a {
+  display: flex;
+  position: relative;
+  padding-top: 19%;
+
+}
+
+.pl {
+  padding-left: 40%;
+}
+
+.aa {
+  display: flex;
+  position: relative;
+
+}
+
+.aa h2 {
+  font-size: 40px;
+}
+
+.aaa {
+  display: flex;
+  position: relative;
+
+}
+
+.aab {
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: grey;
+}
+
+.aaaa {
+  position: relative;
+  padding-top: 5%;
+  border: none;
+}
+
+.aaaa button {
+  min-height: 10px;
+  min-width: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top-reight {
+  background-color: white;
+  position: relative;
+  width: 50%;
+}
+
+.img1 {
+  background-image: url("./img/nikhil.png");
+  min-height: 450px;
+  min-width: 450px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.pos {
+  position: relative;
+  margin-top: 52px;
+  margin-left: 92px;
+
+}
+
+.img1::before {
+  content: '';
+  position: absolute;
+  bottom: 80px;
+  width: 316px;
+  height: 50px;
+  background: linear-gradient(to top, rgb(201, 195, 195), transparent);
+  /* z-index: 1000px; */
+}
+
+@media(max-width:1194px){
+   .main{
+    min-width: 1194px;
+   }
+
+   .Navlogo{
+      width: 40%;
+   }
+   .Navbutton{
+    width: 60%;
+   }
+}

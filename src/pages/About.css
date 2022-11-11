@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.AboutDiv {
+  display: flex;
+}
+
+.about-width {
+  width: 50%;
+}
+
+.left-about h1 {
+  text-align: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.about-text {
+  width: 555px;
+  font-weight: 500;
+  /* text-align-last: auto; */
+}
+
+.p2 {
+  padding-left: 20%;
+}
+
+
+
+.vwb {
+  margin-left: 0px;
+  min-height: 10px;
+  min-width: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dcb {
+  margin-left: 90px;
+  min-height: 10px;
+  min-width: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: relative;
+  border: 1px solid orange;
+  border-radius: 5px;
+  background-color: white;
+  color: orange;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.underline {
+  background-color: orange;
+  max-width: 59px;
+  min-height: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 48%;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+@media(max-width:1194px) {
+  .about-text {
+    width: 500px;
+  }
+}
