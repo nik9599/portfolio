@@ -46,6 +46,12 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.vwb:hover{
+  background-color: white;
+  color: orange;
+  border: 1px solid orange;
+}
+
 .dcb {
   margin-left: 90px;
   min-height: 10px;
@@ -60,6 +66,11 @@
   background-color: white;
   color: orange;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dcb:hover{
+  background-color: orange;
+  color: white;
 }
 
 .underline {

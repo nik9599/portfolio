@@ -12,7 +12,7 @@ function App() {
 
         </div>
         <div className="Navbutton">
-          <button className='home' id='home'>Home</button>
+          <button className='home' id='home' onClick="about" >Home</button>
           <button className='about' >About Us</button>
           <button className='services' >Services</button>
           <button className='contact' >Contact</button>
