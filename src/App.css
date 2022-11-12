@@ -1,170 +1,237 @@
 * {
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
 }
 
 nav {
-  display: flex;
-  height: 53px;
+    display: flex;
+    height: 53px;
 }
 
 .Navlogo {
-  background-color: white;
-  width: 30%;
+    background-color: white;
+    width: 50%;
 }
 
 .Navbutton {
-  background-color: white;
-  width: 70%;
-  display: flex;
-  position: relative;
-  margin-top: 10px;
-  height: 25px;
-}
-ul{
-  display: flex;
-}
-.Navbutton li {
-  border: none;
-  padding: 5px;
-  display: flex;
-  margin-left: 90px;
-  background: none;
-  border-radius: 10px;
+    background-color: white;
+    width: 50%;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    height: 25px;
 }
 
-.link{
-  text-decoration:none ;
-  display: inline;
+ul {
+    display: flex;
+}
+
+.Navbutton li {
+    border: none;
+    padding: 5px;
+    display: flex;
+    margin-left: 50px;
+    background: none;
+    border-radius: 10px;
+}
+
+.link {
+    text-decoration: none;
+    display: inline;
 }
 
 .home:hover {
-  background-color: rgb(233, 237, 237);
-  box-shadow: 4px 5px 6px rgb(216, 215, 215);
+    background-color: rgb(233, 237, 237);
+    box-shadow: 4px 5px 6px rgb(216, 215, 215);
 }
 
 .about:hover {
-  background-color: rgb(233, 237, 237);
-  box-shadow: 4px 5px 6px rgb(216, 215, 215);
+    background-color: rgb(233, 237, 237);
+    box-shadow: 4px 5px 6px rgb(216, 215, 215);
 }
 
 .services:hover {
-  background-color: rgb(233, 237, 237);
-  box-shadow: 4px 5px 6px rgb(216, 215, 215);
+    background-color: rgb(233, 237, 237);
+    box-shadow: 4px 5px 6px rgb(216, 215, 215);
 }
 
 
 .contact:hover {
-  background-color: rgb(233, 237, 237);
-  box-shadow: 4px 5px 6px rgb(216, 215, 215);
+    background-color: rgb(233, 237, 237);
+    box-shadow: 4px 5px 6px rgb(216, 215, 215);
 }
 
 .FirstSection {
-  display: flex;
-  background-color: bisque;
-  min-height: 500px;
+    display: flex;
+    background-color: bisque;
+    min-height: 500px;
 }
 
 .top-left {
-  background-color: white;
-  width: 50%;
+    background-color: white;
+    width: 50%;
+}
+
+.img2 {
+    visibility: hidden;
 }
 
 .a {
-  display: flex;
-  position: relative;
-  padding-top: 19%;
 
+    position: relative;
+    padding-top: 15%;
+    /*display: flex;*/
+}
+
+.a p {
+    width: 100%;
+    /*background-color: blue;*/
+}
+
+.a h2 {
+    display: block;
+    font-size: 40px;
+    /*background-color: aqua;*/
+}
+
+.a h4 {
+    width: 100%;
+    position: relative;
+    display: inline;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
 }
 
 .pl {
-  padding-left: 40%;
+    padding-left: 40%;
 }
 
-.aa {
-  display: flex;
-  position: relative;
 
-}
 
-.aa h2 {
-  font-size: 40px;
-}
-
-.aaa {
-  display: flex;
-  position: relative;
-
-}
-
-.aab {
-  font-size: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: grey;
-}
 
 .aaaa {
-  position: relative;
-  padding-top: 5%;
-  border: none;
+    position: relative;
+    padding-top: 5%;
+    border: none;
 }
 
 .aaaa button {
-  min-height: 10px;
-  min-width: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  position: relative;
-  border: none;
-  border-radius: 5px;
-  background-color: orange;
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 10px;
+    min-width: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .top-reight {
-  background-color: white;
-  position: relative;
-  width: 50%;
+    background-color: white;
+    position: relative;
+    width: 50%;
 }
 
-.img1 {
-  background-image: url("./img/nikhil.png");
-  min-height: 450px;
-  min-width: 450px;
-  background-repeat: no-repeat;
-  position: relative;
+.top-reight img{
+    height: 300px;
+    width: 300px;
+    margin-top: 40px;
 }
 
-.pos {
-  position: relative;
-  margin-top: 52px;
-  margin-left: 92px;
 
+
+
+
+
+
+@media (max-width: 1194px) {
+    .main {
+        min-width: 1194px;
+    }
+
+    .Navlogo {
+        width: 40%;
+    }
+
+    .Navbutton {
+        width: 60%;
+    }
+
+    .top-left {
+        width: 100%;
+        background-color: blue;
+        display: inline;
+    }
+
+    .img2 {
+        visibility: visible;
+        background-image: url("./img/nikhil.png");
+        background-repeat: no-repeat;
+        min-height: 450px;
+        min-width: 450px;
+        border-radius: 100px;
+    }
+
+    .a {
+
+        position: relative;
+        padding-top: 0%;
+
+    }
+
+    .a p {
+        width: 100%;
+        background-color: blue;
+    }
+
+    .a h2 {
+        display: block;
+        background-color: aqua;
+    }
+
+    .a h4 {
+        width: 100%;
+        position: relative;
+        display: inline;
+        background-color: brown;
+    }
+
+    .pl {
+        padding-left: 40%;
+    }
+
+    .aaaa {
+        position: relative;
+        padding-top: 5%;
+        border: none;
+    }
+
+    .aaaa button {
+        min-height: 10px;
+        min-width: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        position: relative;
+        border: none;
+        border-radius: 5px;
+        background-color: orange;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .top-reight {
+        width: 0%;
+        visibility: hidden;
+        margin: 0px;
+        padding: 0px;
+    }
 }
 
-.img1::before {
-  content: '';
-  position: absolute;
-  bottom: 80px;
-  width: 316px;
-  height: 50px;
-  background: linear-gradient(to top, rgb(201, 195, 195), transparent);
-  /* z-index: 1000px; */
-}
-
-@media(max-width:1194px){
-   .main{
-    min-width: 1194px;
-   }
-
-   .Navlogo{
-      width: 20%;
-   }
-   .Navbutton{
-    width: 80%;
-   }
-}

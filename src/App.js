@@ -4,6 +4,7 @@ import Foot from './pages/Footer.js';
 import About from './pages/About.js';
 import Service from './pages/Service';
 import {useRef} from "react";
+import Front from'./img/nikhil.png'
 
 function App() {
     const Services = useRef(null);
@@ -38,20 +39,11 @@ function App() {
             <section ref={home} className="FirstSection">
 
                 <div className="top-left">
-
+                       <div className="img2"></div>
                     <div className="a pl">
                         <p>Hello</p>
-                    </div>
-
-                    <div className="aa pl">
-
                         <h2>I'm Nikhil</h2>
-
-                    </div>
-
-                    <div className="aaa aab pl">
-
-                        <p>Web Developer</p>
+                        <h4>Web Developer</h4>
                     </div>
 
                     <div className="aaaa pl">
@@ -63,10 +55,7 @@ function App() {
                 </div>
 
                 <div className="top-reight">
-
-                    <div className="img1 pos ">
-
-                    </div>
+                    <img src={Front} />
 
                 </div>
 
