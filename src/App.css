@@ -73,8 +73,9 @@ ul {
     width: 50%;
 }
 
-.img2 {
+. top-left img {
     visibility: hidden;
+
 }
 
 .a {
@@ -139,9 +140,11 @@ ul {
 }
 
 .top-reight img{
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     margin-top: 40px;
+    border-radius: 200px;
+    padding: 5px;
 }
 
 
@@ -163,75 +166,5 @@ ul {
         width: 60%;
     }
 
-    .top-left {
-        width: 100%;
-        background-color: blue;
-        display: inline;
-    }
-
-    .img2 {
-        visibility: visible;
-        background-image: url("./img/nikhil.png");
-        background-repeat: no-repeat;
-        min-height: 450px;
-        min-width: 450px;
-        border-radius: 100px;
-    }
-
-    .a {
-
-        position: relative;
-        padding-top: 0%;
-
-    }
-
-    .a p {
-        width: 100%;
-        background-color: blue;
-    }
-
-    .a h2 {
-        display: block;
-        background-color: aqua;
-    }
-
-    .a h4 {
-        width: 100%;
-        position: relative;
-        display: inline;
-        background-color: brown;
-    }
-
-    .pl {
-        padding-left: 40%;
-    }
-
-    .aaaa {
-        position: relative;
-        padding-top: 5%;
-        border: none;
-    }
-
-    .aaaa button {
-        min-height: 10px;
-        min-width: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 25px;
-        padding-right: 25px;
-        position: relative;
-        border: none;
-        border-radius: 5px;
-        background-color: orange;
-        color: white;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-    .top-reight {
-        width: 0%;
-        visibility: hidden;
-        margin: 0px;
-        padding: 0px;
-    }
 }
 

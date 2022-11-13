@@ -39,7 +39,7 @@ function App() {
             <section ref={home} className="FirstSection">
 
                 <div className="top-left">
-                       <div className="img2"></div>
+
                     <div className="a pl">
                         <p>Hello</p>
                         <h2>I'm Nikhil</h2>

@@ -38,7 +38,7 @@ function About() {
                         <button className="vwb" onClick={() => openInNewTab('https://github.com/nik9599')}>VIEW
                             WORKS
                         </button>
-                        <button className='dcb'>DOWNLOAD CV</button>
+                        <a  href="https://drive.google.com/file/d/15MRO_BtQMpxHYjoHjnsTMookETOXblnt/view?usp=sharing"  target="_blank" className='dcb'>DOWNLOAD CV</a>
 
                     </div>
 
