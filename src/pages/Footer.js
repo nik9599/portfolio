@@ -17,6 +17,7 @@ import mail from '../img/icons8-mail-32.png';
             emailjs.sendForm('service_c4vgxp7', 'template_zsojv6s', form.current, 'UkgMYdjEuLRyWyZq1')
                 .then((result) => {
                     console.log(result.text);
+                    window.alert("Your request in process")
                 }, (error) => {
                     console.log(error.text);
                 });
